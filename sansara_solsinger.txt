@@ -10,3 +10,7 @@ RACES
 - There is no architecture to allow for inheriting natural weapons based on race type because nobody made a "birdofprey.java" to extend, which will declutter things.
 - Body parts can be inherited from master racial profiles, as well.
 - Other inheritance "stuff." It's a long list, folks, and it only takes a weekend to fix it at the most. :)
+
+NEW ADDITIONS
+- Quote of the Day at login :)
+- Variable text to user at logout :)
