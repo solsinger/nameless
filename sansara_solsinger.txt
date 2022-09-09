@@ -1,0 +1,12 @@
+Hello and welcome to The Project(TM)!
+
+The goal of this fork is to optimize CoffeeMUD 5.9 as of 9/9/2022. This will include rewriting the mudgrinder (some day.) 
+For now, it means refactoring code to reduce redundancy and increase visibility into the mud engine.
+
+Known issues to address:
+RACES
+- Races do not utilize extension properly. All races have a copy of "health text," which is rarely unique.
+- Health text is not a switch statement, like it should be.
+- There is no architecture to allow for inheriting natural weapons based on race type because nobody made a "birdofprey.java" to extend, which will declutter things.
+- Body parts can be inherited from master racial profiles, as well.
+- Other inheritance "stuff." It's a long list, folks, and it only takes a weekend to fix it at the most. :)
