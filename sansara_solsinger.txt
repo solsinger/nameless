@@ -24,6 +24,8 @@ MUDGRINDER
 ------ Must earn social manager by being diligent. PCs have no privileges, only named admins.
 --- Default for player: character-builder, character-manager, account-manager, notes-manager, forum-contributor (per character).
 ------ Force account name to be different than first user name. Allow user to redo account name on creation to use original name as first character.
+--- Add ability to design classes for those who will use the engine and demand on having classes.
+--- Add ability to design species for those who will use the engine and demand on having their own species.
 
 - Lacking a character level interface for non-admins
 - Allow character management without being logged in to play. 
@@ -43,16 +45,21 @@ FAKEDB
 INSTRUCTIONS
 - Complete rewrite. (Well, maybe not complete... there's some good humor in there.)
 
+AI VOICE & SOUNDS
+- Blind community loves text-based gaming but Jabber is so impersonal. Create AI voice to read everything.
+- Redo sound integration so you don't need a PhD in rocket science to build a damn game.
+
 COFFEEMUD.INI
 - Super CLUNKY! Chop up into multiple INI files to reduce confusion. Name them suitably to reduce confusion.
 - Make a folder to hold all the INI files since there will be more than a few.
 
-RACES
-- Races do not utilize extension properly. All races have a copy of "health text," which is rarely unique.
+SPECIES
+- Species do not utilize extension properly. All species have a copy of "health text," which is rarely unique.
 - Health text is not a switch statement, like it should be.
-- There is no architecture to allow for inheriting natural weapons based on race type because nobody made a "birdofprey.java" to extend, which will declutter things.
-- Body parts can be inherited from master racial profiles, as well.
+- There is no architecture to allow for inheriting natural weapons based on species type because nobody made a "birdofprey.java" to extend, which will declutter things.
+- Body parts can be inherited from master species profiles, as well.
 - Other inheritance "stuff." It's a long list, folks, and it only takes a weekend to fix it at the most. :)
+- Toy with going species-less and allowing players to define the wear locations of their character as they see fit. (doesn't mean they get things to wear there that do stuff, just that they can customize as they please... will bring about massive declutter.)
 
 CLASSES
 - I think there are too many for my own taste, so reduce. Maybe even go truly classless.
@@ -64,3 +71,4 @@ CLASSES
 NEW ADDITIONS
 - Quote of the Day at login :)
 - Variable text to user at logout :)
+- Visualizer that turns text into 2D art in browser for people who don't like to READ. (SHAME ON YOU.)
