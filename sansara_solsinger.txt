@@ -40,6 +40,7 @@ MUDGRINDER
 --- Allow equipment changes.
 --- Allow alias management at character level, along w/ copy to other characters on same account.
 --- Allow player to delete/create new characters.
+--- Implement soft-delete system; only truly delete the character after 336 hours (two weeks.) I cannot tell you how many times I undeleted idiots.
 
 FAKEDB
 - Replace with real DB & better instructions for installation.
@@ -68,7 +69,9 @@ AREAS, BUILDING, OBJECTS, ETC.
 - Reduce to six exit types. It's for the blind, folks!
 - Create useful pre-programmed AIs for NPCs, make them easy to customize!
 - Locales... implement extension/tree approach.
-
+- Vehicles... make them more intuitive and give them flavoring for sci-fi. (Hello, MECHA! Hello, SPACE SHIPS!)
+- Auto-create areas -- skip the room descriptions, they're just cloned anyway. Nobody gives a shit about cloned room descriptions. NOBODY.
+- Fix in the sky so you can actually return to the room you started flying from. This always bothered me... do you think a flying critter can't figure out where to land?! If you don't know what I mean, fly up three times, then down three times. You will not be where you started.
 
 SPECIES
 - Species... implement resource gathering extension.
