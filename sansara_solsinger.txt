@@ -4,11 +4,35 @@ The goal of this fork is to optimize CoffeeMUD 5.9 as of 9/9/2022. This will inc
 For now, it means refactoring code to reduce redundancy and increase visibility into the mud engine.
 
 Known issues to address:
+SIPLET
+- Begging for a complete redesign to go with the new MudGrinder
+
 MUDGRINDER
 - Design is clunky and unattractive
 - The area builder is less than optimal once an area gets to a certain size
 - Lacking a character level interface for non-admins
 - Outdated technologies (by design) which does not suit someone like myself
+- Integrate a wiki, possibly made from scratch. This is the new HELP system, even in-game.
+- Integrate the posts to public journals and things so they can be read while not logged in.
+- Allow character management without being logged in to play. 
+--- Allow delete/sell of inventory.
+--- Allow house/office space management with builder interface like admin/builder sees.
+--- Allow account management.
+--- Show last login dates for all characters.
+--- Keep all characters on a single account viable instead of auto-deleting.
+--- Allow note-taking that is private so that each character's IC information can be documented for player use.
+--- Allow personal description management.
+--- Allow equipment changes.
+--- Allow alias management at character level, along w/ copy to other characters on same account.
+
+FAKEDB
+- Replace with real DB & better instructions for installation.
+
+INSTRUCTIONS
+- Complete rewrite. (Well, maybe not complete... there's some good humor in there.)
+
+COFFEEMUD.INI
+- Super CLUNKY! Chop up into multiple INI files to reduce confusion. Name them suitably to reduce confusion.
 
 RACES
 - Races do not utilize extension properly. All races have a copy of "health text," which is rarely unique.
@@ -16,6 +40,9 @@ RACES
 - There is no architecture to allow for inheriting natural weapons based on race type because nobody made a "birdofprey.java" to extend, which will declutter things.
 - Body parts can be inherited from master racial profiles, as well.
 - Other inheritance "stuff." It's a long list, folks, and it only takes a weekend to fix it at the most. :)
+
+CLASSES
+- I think there are too many for my own taste, so reduce. Maybe even go classless.
 
 NEW ADDITIONS
 - Quote of the Day at login :)
