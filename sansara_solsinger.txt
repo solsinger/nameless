@@ -45,6 +45,7 @@ INSTRUCTIONS
 
 COFFEEMUD.INI
 - Super CLUNKY! Chop up into multiple INI files to reduce confusion. Name them suitably to reduce confusion.
+- Make a folder to hold all the INI files since there will be more than a few.
 
 RACES
 - Races do not utilize extension properly. All races have a copy of "health text," which is rarely unique.
@@ -54,7 +55,11 @@ RACES
 - Other inheritance "stuff." It's a long list, folks, and it only takes a weekend to fix it at the most. :)
 
 CLASSES
-- I think there are too many for my own taste, so reduce. Maybe even go classless.
+- I think there are too many for my own taste, so reduce. Maybe even go truly classless.
+- Consider "class packages" that characters buy with a point-buy system like Realms of Discordia back in the day.
+----- 40 points minimum, 60 points maximum. The points chosen increase the amount of experience it takes to get to the next level.
+- Truly remove cross-classing, it's pointless for a classless game.
+- Redo skills to de-clutter; having 'everything and the kitchen sink' just makes it impossible to make decisions, esp. if the mud goes to level 999.
 
 NEW ADDITIONS
 - Quote of the Day at login :)
