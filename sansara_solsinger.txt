@@ -10,10 +10,22 @@ SIPLET
 MUDGRINDER
 - Design is clunky and unattractive
 - The area builder is less than optimal once an area gets to a certain size
-- Lacking a character level interface for non-admins
 - Outdated technologies (by design) which does not suit someone like myself
+
 - Integrate a wiki, possibly made from scratch. This is the new HELP system, even in-game.
-- Integrate the posts to public journals and things so they can be read while not logged in.
+- Integrate the posts to public journals and things so they can be read while not logged in (forum).
+- Integrate bug tracking, idea tracking, release notes, et cetera, to be very robust.
+- Email verification for accounts. Eliminate non-account interface.
+
+- Roles & privileges manager. Default roles: owner, admin, contributor, player.
+--- Privileges: builder, help-keeper, storyteller (forum), social manager, admin manager,
+--- Default for owner: everything, cannot be revoked no matter how hard you try.
+--- Default for admin: builder, help-keeper, storyteller, story-tagging, account-manager. 
+------ Must earn social manager by being diligent. PCs have no privileges, only named admins.
+--- Default for player: character-builder, character-manager, account-manager, notes-manager, forum-contributor (per character).
+------ Force account name to be different than first user name. Allow user to redo account name on creation to use original name as first character.
+
+- Lacking a character level interface for non-admins
 - Allow character management without being logged in to play. 
 --- Allow delete/sell of inventory.
 --- Allow house/office space management with builder interface like admin/builder sees.
