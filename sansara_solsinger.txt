@@ -10,6 +10,12 @@ Known issues to address:
   I think they mostly aren't great. Especially since network connections on mobile devices are transient.
   And an app in the background must be prepared to suspend at any time.
   Telnet doesn't really work well with that.
+  
+- SMTP server:
+  check if CoffeeMUD servers setup reverse DNS and have TLS certificates.
+  (as without that, your SMTP server is likely to be marked as spam or just rejected outright)
+  Not even getting into adding DKIM too.
+  Running a mail server sucks now.
 
 SIPLET
 - Begging for a complete redesign to go with the new MudGrinder
