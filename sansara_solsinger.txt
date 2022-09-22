@@ -16,6 +16,9 @@ Known issues to address:
   (as without that, your SMTP server is likely to be marked as spam or just rejected outright)
   Not even getting into adding DKIM too.
   Running a mail server sucks now.
+  
+- Discord Integration :)
+  Really easy to add server->discord notifications.
 
 SIPLET
 - Begging for a complete redesign to go with the new MudGrinder
